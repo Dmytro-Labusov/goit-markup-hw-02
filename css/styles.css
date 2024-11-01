@@ -15,8 +15,10 @@ h1 {
     color:rgba(255, 255, 255, 1);
     background-color: rgba(46, 47, 66, 1);
     font-size: 56px;
-    line-height: 1.0;
+    line-height: 1.07;
     font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 h2 {
@@ -28,14 +30,17 @@ h2 {
 h3 {
     font-size: 20px;
     color:rgba(46, 47, 66, 1);
-    font-weight: medium;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 p {
-    font-size: 12px;
-    line-height: 1.1;
+    font-size: 16px;
+    line-height: 1.5;
     color:rgba(67, 68, 85, 1);
     font-weight: regular;
+    letter-spacing: 0.02em;
 }
 
 .logo {
@@ -97,13 +102,20 @@ header-link:focus {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(77, 90, 229, 1);
     font-size: 16px;
-    font-weight: medium;
+    font-weight: 500;
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .order-button:hover {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(64, 75, 191, 1);
+}
+
+.order-button:focus {
+    background-color: #404BBF;
 }
 
 .footer-link {
@@ -121,4 +133,8 @@ header-link:focus {
 
 .info {
   font-style: normal;
+}
+
+.business {
+    background-color:#2e2f42;
 }
