@@ -86,7 +86,6 @@ header-link:focus {
     font-size: 16px;
     font-weight: medium;
     cursor: pointer;
-    ;
 }
 
 .order-button:hover {
@@ -109,5 +108,4 @@ header-link:focus {
 
 a, span {
     color:rgba(77, 90, 229, 1);
-    ;
 }
