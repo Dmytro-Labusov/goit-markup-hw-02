@@ -25,6 +25,10 @@ h2 {
     font-size: 36px;
     color:rgba(46, 47, 66, 1);
     font-weight: bold;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 h3 {
@@ -118,16 +122,31 @@ header-link:focus {
     background-color: #404BBF;
 }
 
-.footer-link {
-    color:rgba(46,47,66,1);
-    text-decoration: none;
+.team {
+    background-color: #F4F4FD;
 }
 
-.footer-link:hover {
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo {
+    color:#4d5ae5;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+.footer-logo:hover {
     color:rgba(64, 75, 191, 1);
 }
 
-.footer-link:focus {
+.footer-logo:focus {
     color:rgba(64, 75, 191, 1);
 }
 
@@ -137,4 +156,12 @@ header-link:focus {
 
 .business {
     background-color:#2e2f42;
+}
+
+.studio-span {
+    color:#f4f4fd;
+}
+
+.footer-text {
+    color:#F4F4FD;
 }
